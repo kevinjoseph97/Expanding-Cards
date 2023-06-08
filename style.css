@@ -14,10 +14,40 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* take up the entire hieght of the browser */
+    /* take up the entire height of the browser */
     height: 100vh;
     /* hides scrollbar */
     overflow: hidden;
-
     margin: 0;
+}
+
+.container {
+    /* turns it into a row of boxes */
+    display: flex;
+    width: 40vw;
+
+}
+
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    /* no repeated images - only one  */
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    /* text */
+    color: aliceblue;
+    /* adds cursor over the images */
+    cursor: pointer;
+    flex: 0.5;
+
+    /* space out the pics */
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+
+
+
+
 }
