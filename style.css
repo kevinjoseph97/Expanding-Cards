@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* universal selector .. applies to everything*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* center everything with flex */
+    display: flex;
+    /* sets things to be vertical  */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* take up the entire hieght of the browser */
+    height: 100vh;
+    /* hides scrollbar */
+    overflow: hidden;
+
+    margin: 0;
+}
